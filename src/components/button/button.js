@@ -1,4 +1,4 @@
-const message = (label) => alert(`Essa label é ${label}`);
+const message = (label) => alert(`A label desse botão é ${label}.`);
 
 const Button = (props) => {
   return (
@@ -15,7 +15,3 @@ const Button = (props) => {
 };
 
 export default Button;
-
-// onClick={() => {
-//    message(props.label);
-//}}
